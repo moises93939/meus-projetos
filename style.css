@@ -1,0 +1,96 @@
+body {
+    background-image: url(img/algaritmos.jpg) ;
+}
+/* style cabeçalho da pagina */
+header {
+    background-image:linear-gradient(to right, black 40%, rgba(0, 0, 255, 0.137));
+    padding-top: 1px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 5px rgba(233, 224, 224, 0.479);
+}
+
+header h1 {
+    color: white;
+  text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+/* style menu da pagina */
+nav >a {
+    color: white;
+    margin-right: 30px;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: rgb(214, 22, 22);
+        color:beige;
+        border-radius: 10px;
+    }
+    /* style span */
+    span#rede {
+        color:rgb(0, 255, 42);
+    }
+
+    span {
+        color:red;
+    }
+
+    span#hacker {
+        color: rgb(14, 194, 8);
+    }
+  /* style meio da pagina */
+    main {
+        margin: 5px 40px 0px 40px;
+        padding: 40px;
+         background-color: white;
+         box-shadow: 1px 1px 10px rgb(0, 0, 0);
+ 
+    }
+
+    main h2 {
+        color: rgb(0, 0, 0);
+        background-image:linear-gradient(to right, rgb(2, 201, 45),rgba(255, 0, 0, 0));
+        padding: 1px 10px 1px 10px;
+    }
+    
+    main p {
+        font-size: 7;
+        text-align: justify;
+    }
+
+    strong {
+        color: red;
+    }
+
+     /* style Rodapé */
+    footer {
+        margin: 0px 40px 1px 40px;
+        padding: 40px;
+        font-size: 7;
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.918) 50%, rgba(0, 0, 0, 0.63) , rgba(20, 20, 202, 0.281));
+        color: white;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    }
+ 
+    div >a {
+        padding-right: 30px;
+        text-decoration: none;
+    }
+
+    div a:hover {
+        background-color: rgb(223, 217, 228);
+        color: rgb(0, 0, 0);
+      text-decoration: underline;
+    }
+
+    div >img {
+        border-radius: 50px;
+        margin: 20px;
+        
+    }
+   
